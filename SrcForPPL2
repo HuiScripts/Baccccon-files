@@ -1,0 +1,142 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "[WINTER] Bacon Script - MM2",
+   Icon = "utensils",
+   LoadingTitle = "Bacon Script🥓",
+   LoadingSubtitle = "by BconScripts",
+   Theme = "AmberGlow",
+
+   DisableRayfieldPrompts = true,
+   DisableBuildWarnings = true,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+
+   KeySystem = false, 
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", 
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Hello"}
+   }
+})
+
+local Tab = Window:CreateTab("ForAutoFarm","dollar-sign")
+
+local Paragraph = Tab:CreateParagraph({Title = "important", Content = "Use this AutoFarm config or you can get kicked: Tween speed: 19-31, Tween delay: 0-12, Return to: void"})
+
+local Section = Tab:CreateSection("Auto Farm Gui")
+
+local Button = Tab:CreateButton({
+   Name = "Execute❄️",
+   Callback = function()
+Rayfield:Notify({
+   Title = "Error",
+   Content = "Script isn't loaded fully. Wait.",
+   Duration = 3,
+   Image = "x",
+})
+  end,
+})
+
+local Section = Tab:CreateSection("Snow Coins Esp")
+
+local Button = Tab:CreateButton({
+   Name = "Enable❄️",
+   Callback = function()
+Rayfield:Notify({
+   Title = "Enabled successfully",
+   Content = "You can see coins throught the wall",
+   Duration = 3,
+   Image = "check",
+})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HuiScripts/GGGGGGYYYIE/refs/heads/main/Omg')))()
+  end,
+})
+
+
+local Tab = Window:CreateTab("ForDupe","dollar-sign")
+
+local Section = Tab:CreateSection("Dupe")
+
+local Button = Tab:CreateButton({
+   Name = "Execute",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HuiScripts/GGGGGGYYYIE/refs/heads/main/DupeMM2.txt"))()
+Rayfield:Notify({
+   Title = "Duped Successfully",
+   Content = "Check inventory",
+   Duration = 3,
+   Image = "check",
+})
+  end,
+})
+
+local Section = Tab:CreateSection("Get All")
+
+local Button = Tab:CreateButton({
+   Name = "Enable",
+   Callback = function()
+Rayfield:Notify({
+   Title = "Error",
+   Content = "Script isn't loaded fully. Wait.",
+   Duration = 3,
+   Image = "x",
+})
+  end,
+})
+
+
+local Tab = Window:CreateTab("ForTradeScam","dollar-sign")
+
+local Paragraph = Tab:CreateParagraph({Title = "important", Content = "use -trade scam- before trade, use -trade freeze- after you put items in trade"})
+
+local Section = Tab:CreateSection("Trade Scam")
+
+local Button = Tab:CreateButton({
+   Name = "Enable",
+   Callback = function()
+
+Rayfield:Notify({
+   Title = "Error",
+   Content = "Script isn't loaded fully. Wait.",
+   Duration = 3,
+   Image = "x",
+})
+  end,
+})
+
+local Section = Tab:CreateSection("Trade Freeze")
+
+local Button = Tab:CreateButton({
+   Name = "Enable",
+   Callback = function()
+
+Rayfield:Notify({
+   Title = "Error",
+   Content = "Script isn't loaded fully. Wait.",
+   Duration = 3,
+   Image = "x",
+})
+  end,
+})
+
+
+
+
+
+
+ 
